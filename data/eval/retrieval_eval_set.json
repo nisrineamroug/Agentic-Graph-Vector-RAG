@@ -1,0 +1,243 @@
+[
+  {
+    "id": "q01",
+    "question": "Quel est le sujet principal de la these de David Becel ?",
+    "expected_pages": ["Page 1", "Page 2"],
+    "expected_keywords": [
+      "modélisation numérique",
+      "érosion",
+      "sédimentation",
+      "Pilcomayo"
+    ],
+    "expected_chunk_ids": [0, 1, 2]
+  },
+  {
+    "id": "q02",
+    "question": "Dans quel contexte geologique la riviere Pilcomayo est-elle etudiee ?",
+    "expected_pages": ["Page 1", "Page 2"],
+    "expected_keywords": [
+      "tectoniquement actif",
+      "fluctuations climatiques quaternaires"
+    ],
+    "expected_chunk_ids": [1, 2]
+  },
+  {
+    "id": "q03",
+    "question": "Quel est le sommaire general du document ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["Sommaire", "Introduction générale", "Chapitre"],
+    "expected_chunk_ids": [3]
+  },
+  {
+    "id": "q04",
+    "question": "Que dit le document sur le bassin-versant du Pilcomayo ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["bassin-versant", "Pilcomayo"],
+    "expected_chunk_ids": [4]
+  },
+  {
+    "id": "q05",
+    "question": "Quelles informations sont donnees sur le contexte climatique ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": [
+      "contexte climatique",
+      "paléoclimat",
+      "climat actuel"
+    ],
+    "expected_chunk_ids": [4]
+  },
+  {
+    "id": "q06",
+    "question": "Quels modeles geomorphologiques sont mentionnes ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["modèles géomorphologiques", "incision fluviale"],
+    "expected_chunk_ids": [4, 5]
+  },
+  {
+    "id": "q07",
+    "question": "Quels modeles numeriques sont cites comme exemples ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["CASCADE", "EROS"],
+    "expected_chunk_ids": [5]
+  },
+  {
+    "id": "q08",
+    "question": "Quel est le principe du modele numerique developpe ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": [
+      "principe du modèle numérique",
+      "développement du modèle"
+    ],
+    "expected_chunk_ids": [5, 6]
+  },
+  {
+    "id": "q09",
+    "question": "Quelles equations hydrauliques sont utilisees ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": [
+      "équations de Saint-Venant",
+      "modélisation hydraulique"
+    ],
+    "expected_chunk_ids": [6]
+  },
+  {
+    "id": "q10",
+    "question": "Que dit le document sur le transport des sediments ?",
+    "expected_pages": ["Page 3", "Page 4"],
+    "expected_keywords": ["transport", "sédiments", "transport solide"],
+    "expected_chunk_ids": [6, 7]
+  },
+  {
+    "id": "q11",
+    "question": "Quel est le role de l'erodabilite des sols ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": ["érodabilité des sols"],
+    "expected_chunk_ids": [7]
+  },
+  {
+    "id": "q12",
+    "question": "Qu'est-ce que COBASE dans ce document ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": ["COBASE", "synthèse", "applications"],
+    "expected_chunk_ids": [7]
+  },
+  {
+    "id": "q13",
+    "question": "Quel est le titre complet de la these ?",
+    "expected_pages": ["Page 1", "Page 2"],
+    "expected_keywords": [
+      "Modélisation numérique de l’érosion",
+      "rivière Pilcomayo"
+    ],
+    "expected_chunk_ids": [1, 2]
+  },
+  {
+    "id": "q14",
+    "question": "Quelle universite est mentionnee dans la page de these ?",
+    "expected_pages": ["Page 2"],
+    "expected_keywords": ["Université Joseph Fourier Grenoble 1"],
+    "expected_chunk_ids": [2]
+  },
+  {
+    "id": "q15",
+    "question": "A quelle date la these a-t-elle ete soutenue ?",
+    "expected_pages": ["Page 2"],
+    "expected_keywords": ["15 octobre 2004"],
+    "expected_chunk_ids": [2]
+  },
+  {
+    "id": "q16",
+    "question": "Qui est le directeur de these ?",
+    "expected_pages": ["Page 2"],
+    "expected_keywords": ["Jean-Louis Mugnier"],
+    "expected_chunk_ids": [2]
+  },
+  {
+    "id": "q17",
+    "question": "Quelles sections apparaissent apres l'introduction generale ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["Chapitre 1", "Contexte du travail"],
+    "expected_chunk_ids": [3]
+  },
+  {
+    "id": "q18",
+    "question": "Le sommaire mentionne-t-il les structures andines boliviennes ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["chaîne andine bolivienne", "structures actuelles"],
+    "expected_chunk_ids": [3]
+  },
+  {
+    "id": "q19",
+    "question": "Le document contient-il une section sur le paleoclimat bolivien ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["paléoclimat bolivien"],
+    "expected_chunk_ids": [4]
+  },
+  {
+    "id": "q20",
+    "question": "Le climat actuel est-il traite dans le sommaire ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["climat actuel"],
+    "expected_chunk_ids": [4]
+  },
+  {
+    "id": "q21",
+    "question": "Quelles familles de modeles sont listees dans l'etat de l'art ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": [
+      "modèles géomorphologiques",
+      "modèles hydrauliques",
+      "modèles physiques"
+    ],
+    "expected_chunk_ids": [4, 5]
+  },
+  {
+    "id": "q22",
+    "question": "Le modele CASCADE est-il cite ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["CASCADE"],
+    "expected_chunk_ids": [5]
+  },
+  {
+    "id": "q23",
+    "question": "Le modele EROS est-il cite ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["EROS"],
+    "expected_chunk_ids": [5]
+  },
+  {
+    "id": "q24",
+    "question": "Le chapitre de developpement du modele numerique commence a quelle partie ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["Chapitre 2", "Développement d'un modèle numérique"],
+    "expected_chunk_ids": [5]
+  },
+  {
+    "id": "q25",
+    "question": "Quelles equations sont simplifiees dans la partie hydraulique ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": ["Simplifications des équations de Saint-Venant"],
+    "expected_chunk_ids": [6]
+  },
+  {
+    "id": "q26",
+    "question": "Le transport fluviatile des sediments est-il decompose en sous-parties ?",
+    "expected_pages": ["Page 3"],
+    "expected_keywords": [
+      "mise en mouvement",
+      "modes de transport",
+      "prévision du transport solide"
+    ],
+    "expected_chunk_ids": [6]
+  },
+  {
+    "id": "q27",
+    "question": "Une evaluation numerique des formules de transport solide est-elle presente ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": [
+      "Evaluation numérique des formules de transport solide"
+    ],
+    "expected_chunk_ids": [7]
+  },
+  {
+    "id": "q28",
+    "question": "Le document parle-t-il du transport sur les versants ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": ["transport sur les versants"],
+    "expected_chunk_ids": [7]
+  },
+  {
+    "id": "q29",
+    "question": "Y a-t-il une section sur la largeur de la riviere ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": ["Modèle de largeur de la rivière"],
+    "expected_chunk_ids": [7]
+  },
+  {
+    "id": "q30",
+    "question": "Quelles applications sont associees a COBASE ?",
+    "expected_pages": ["Page 4"],
+    "expected_keywords": ["COBASE", "Applications", "multigranulométrie"],
+    "expected_chunk_ids": [7]
+  }
+]

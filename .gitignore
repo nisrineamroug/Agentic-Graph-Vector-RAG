@@ -1,0 +1,57 @@
+## Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+backend.log
+
+# Environment files
+.env
+.env.*
+
+# Large generated data and indexes
+data/faiss_index*
+data/*.npy
+data/*.index
+data/*_bm25.pkl
+data/q_table.pkl
+data/query_logs.jsonl
+data/graph_store.json
+data/graph_store_semantic.json
+data/knowledge_base_clean.json
+data/faiss_index_chunks.json
+
+# Node / Next.js
+node_modules/
+.next/
+npm-debug.log
+yarn-error.log
+
+# Docker extras
+docker-compose.override.yml
+
+# Test / coverage
+.pytest_cache/
+coverage/
